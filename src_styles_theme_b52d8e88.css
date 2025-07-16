@@ -1,0 +1,97 @@
+/* [project]/src/styles/theme.css [app-client] (css) */
+:root {
+  --primary-bg: #0f0f0f;
+  --secondary-bg: #1a1a1a;
+  --tertiary-bg: #2a2a2a;
+  --primary-text: #fff;
+  --secondary-text: #b3b3b3;
+  --muted-text: #737373;
+  --accent-color: #e50914;
+  --hover-color: #ff3d2e;
+  --nav-active: #e50914;
+  --card-bg: #2a2a2a;
+  --card-hover: #333;
+  --overlay-bg: #000000b3;
+  --border-color: #333;
+  --rating-color: #ffc107;
+  --button-bg: #e50914;
+  --button-hover: #ff3d2e;
+  --button-secondary-bg: #fff3;
+  --button-secondary-hover: #ffffff4d;
+  --background: var(--primary-bg);
+  --foreground: var(--primary-text);
+  --card: var(--card-bg);
+  --card-foreground: var(--primary-text);
+  --popover: var(--secondary-bg);
+  --popover-foreground: var(--primary-text);
+  --primary: var(--accent-color);
+  --primary-foreground: white;
+  --secondary: var(--secondary-bg);
+  --secondary-foreground: var(--secondary-text);
+  --muted: var(--secondary-bg);
+  --muted-foreground: var(--secondary-text);
+  --accent: var(--hover-color);
+  --accent-foreground: white;
+  --destructive: #7f1d1d;
+  --destructive-foreground: white;
+  --border: var(--border-color);
+  --input: var(--border-color);
+  --ring: var(--accent-color);
+  --radius: .5rem;
+}
+
+.light {
+  --primary-bg: #f5f5f5;
+  --secondary-bg: #fff;
+  --tertiary-bg: #eee;
+  --primary-text: #0f0f0f;
+  --secondary-text: #333;
+  --muted-text: #666;
+  --accent-color: #e50914;
+  --hover-color: #ff3d2e;
+  --nav-active: #e50914;
+  --card-bg: #fff;
+  --card-hover: #f0f0f0;
+  --overlay-bg: #ffffffb3;
+  --border-color: #e0e0e0;
+  --rating-color: #ffc107;
+  --button-bg: #e50914;
+  --button-hover: #ff3d2e;
+  --button-secondary-bg: #0000001a;
+  --button-secondary-hover: #0003;
+  --background: var(--primary-bg);
+  --foreground: var(--primary-text);
+  --card: var(--card-bg);
+  --card-foreground: var(--primary-text);
+  --popover: var(--secondary-bg);
+  --popover-foreground: var(--primary-text);
+  --primary: var(--accent-color);
+  --primary-foreground: white;
+  --secondary: var(--secondary-bg);
+  --secondary-foreground: var(--secondary-text);
+  --muted: var(--tertiary-bg);
+  --muted-foreground: var(--secondary-text);
+  --accent: var(--hover-color);
+  --accent-foreground: white;
+  --destructive: #991b1b;
+  --destructive-foreground: white;
+  --border: var(--border-color);
+  --input: var(--border-color);
+  --ring: var(--accent-color);
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+:root {
+  --card-shadow: 0 4px 6px #0000001a, 0 1px 3px #00000014;
+  --hover-shadow: 0 10px 15px #0003, 0 4px 6px #0000001a;
+}
+
+.light {
+  --card-shadow: 0 2px 10px #0000000d;
+  --hover-shadow: 0 4px 20px #0000001a;
+}
+
+/*# sourceMappingURL=src_styles_theme_b52d8e88.css.map*/
